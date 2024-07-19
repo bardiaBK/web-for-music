@@ -1,0 +1,293 @@
+.wrapper{
+    height:190px;
+    background-color:rgb(39, 36, 36);
+    color:cornflowerblue;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:40px 80px;
+}
+body{
+    margin:0px;
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+/* .telephone{
+    display:flex;
+    align-items:center;
+}
+
+.icon{
+    margin-right:15px;
+    font-size:20px;
+} */
+
+/* .telephone > .wrapper3{
+
+} */
+
+.wrapper3{
+    font-size:20px;
+}
+
+.wrapper4{
+    font-size:30px;
+}
+
+.links-wrapper > .link a{
+    color:rgb(219, 220, 222);
+}
+
+.wrapper > .center-column {
+    display:grid;
+    grid-template-columns:1fr;
+    grid-gap:42px;
+    width:500px;
+}
+
+.banner-image img{
+    width:150px; 
+    height:100%;
+    margin-left:205px;
+    margin-bottom:10px;
+}
+
+.wrapper > .center-column > .links-wrapper {
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    margin-left:70px;
+}
+
+.links-wrapper > .link a{
+    text-decoration:none;
+    transition:0.5s;
+    font-size:20px;
+}
+
+.links-wrapper > .link a:hover {
+    color:cyan;
+    letter-spacing:2px;
+}
+
+.hero-section{
+    background-image:url(banner\ 5.png);
+    padding:100px;
+    background-attachment:fixed;
+    background-position:center;
+    background-repeat:no-repeat;
+    background-size:cover;
+}
+
+.hero-section > .top-heading{
+    padding:1px 20px;
+    background-color:cornflowerblue;
+    color:white;
+    width:295px;
+    border-radius:5px;
+}
+
+.hero-section > .bottom-heading{
+    background-color:rgb(52, 99, 99);
+    color:whitesmoke;
+    padding:1px 20px;
+    margin-top:15px;
+    width:190px;
+    border-radius:2px;
+}
+
+.features-section{
+    height:400px;
+    background-image:url(page.jpg);
+    background-color:blueviolet;
+    border-top:15px solid white;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    box-shadow:inset 0 -26px 79px 10px black;
+}
+
+.features-section > .columns-wrapper > .column{
+    color:white;
+    background-color:rgb(32, 44, 37);
+    border:3px solid rgb(48, 42, 42);
+    padding:20px;
+    margin:42px;
+    align-items:center;
+    border-bottom:5px solid transparent;
+    border-radius:10px;
+    transition:1s;
+    font-size:20px;
+}
+
+.features-section > .columns-wrapper{
+    width:1000px;
+    display:flex;
+    justify-content:space-between;
+}
+
+.features-section > .columns-wrapper > .column:hover{
+    border-bottom:5px solid white;
+}
+
+.features-section > .columns-wrapper > .column :nth-child(1){
+    font-size:3em;
+}
+
+.features-section > .columns-wrapper > .column :nth-child(2){
+    font-size:1.5em;
+    /* font-weight:900; */
+    height:50px;
+    transition:1s;
+
+}
+
+.font1{
+    font-family: "Raleway", sans-serif;
+    font-optical-sizing: auto;
+    font-weight:weight;
+    font-style:normal;
+}
+
+.features-section > .columns-wrapper > .column :nth-child(2):hover{
+    letter-spacing:1px;;
+}
+
+.features-section > .columns-wrapper > .column :nth-child(3){
+    letter-spacing:2px;
+}
+
+.footer{
+    display:flex;
+    justify-content:space-around;
+    align-items:center;
+    background-color:rgb(31, 31, 74);
+    border-top:3px solid white;
+    /* flex-direction: ; */
+}
+
+.footer > .footer2 > .banner-image img{
+    margin-right:200px;
+    filter:brightness(50%);
+}
+
+.footer > .footer2 > .copyright{
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    margin-top:10px;
+}
+
+.platforms{
+    display:flex;
+    align-items:center;
+    justify-content:center;
+}
+
+
+.footer > .footer2 > .links-wrapper{
+    display:flex;
+    justify-content:space-around;
+    align-items:center;
+    margin-top:10px;
+}
+
+.footer > .footer2 > .platforms > .youtube a{
+    color:rgb(146, 20, 20);
+}
+
+
+.footer > .footer2 > .platforms > .instagramy :nth-child(1){
+    font-size:30px;
+}
+
+.footer > .footer2 > .platforms > .youtube :nth-child(1){
+    font-size:30px;
+}
+
+.footer > .footer2 > .platforms > .instagramy :nth-child(1):hover{
+    letter-spacing:2px;
+    color:rgb(243, 81, 219);
+    transition:1s;
+}
+
+.footer > .footer2 > .platforms > .youtube :nth-child(1):hover{
+    letter-spacing:2px;
+    color:red;
+    transition:1s;
+}
+
+/* for phone */
+
+@media (max-width:1000px){
+    .wrapper{
+        flex-direction:column;
+        height:100%;
+    }
+
+    .wrapper > .wrapper4{
+        order:2;
+        margin-top:10px;
+        margin-bottom:15px;
+    } 
+
+    .wrapper > .banner-image{
+        order:1;
+        width:100%;   
+    }
+
+    .wrapper > .wrapper2{
+        order:3;
+        margin-top:15px;
+    }
+
+    .links-wrapper{
+        flex-direction:column;
+        margin-bottom:20px;
+    }
+
+    .links-wrapper > .link{
+        margin-top:10px;
+        margin-bottom:10px;
+        font-size:1.5em;
+        margin-right:70px;
+    }
+
+    .hero-section{
+        padding:50px 10px;
+    }
+
+    .features-section{
+        height:100%;
+    }
+
+    .features-section > .columns-wrapper{
+        width:100%;
+        flex-direction:column;
+    }
+
+    .footer{
+        height:100%;
+    }
+
+    .copyright{
+       margin-right:70px; 
+    }
+
+    .platforms{
+        margin-right:70px; 
+    }
+}
+
+
+
+
+
+
+
+
+
+
+

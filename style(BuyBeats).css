@@ -1,0 +1,166 @@
+body{
+    background-color:rgb(60, 58, 58);
+}
+
+.play-buybeats{
+    justify-content:space-around;
+    text-align:center;
+    display:flex;
+    /* margin-bottom:150px; */
+    font-size:2rem;
+}
+
+.play-buybeats-p{
+    /* border:2px solid black; */
+    background-color:rgb(122, 116, 116);
+    color:white;
+    font-family: "Noto Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-variation-settings:
+      "wdth" 100;
+    border-radius:10px;
+    width:275px;
+    height:100px;
+    align-items:center;
+    justify-content:center;
+    display:flex;
+    box-shadow:0 1rem 1rem rgb(167, 165, 165);
+    border:3px solid rgb(194, 191, 191);
+    transition:0.75s;
+}
+
+.photo{
+    justify-content:space-around;
+    align-items:center;
+    display:flex;
+}
+
+.photo-1{
+    width:250px;
+    border:3px solid rgb(194, 191, 191);
+    box-shadow:0 1rem 1rem rgb(167, 165, 165);
+}
+
+.play-buybeats-p:hover{
+    letter-spacing:1px;
+    background-color:blueviolet;
+}
+
+.link-Beat{
+    text-decoration:none;
+}
+
+.Buy-p{
+    background-color:rgb(4, 26, 192);
+    color:white;
+    font-family: "Noto Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-variation-settings:
+      "wdth" 100;
+    border-radius:10px;
+    width:300px;
+    height:50px;
+    align-items:center;
+    justify-content:center;
+    display:flex;
+    text-align:center;
+    /* box-shadow:0 20px 20px rgb(167, 165, 165); */
+    border:3px solid rgb(194, 191, 191);
+    transition:0.75s;
+    font-size:25px;
+}
+
+/* Page-1 */
+
+.logo-page-1{
+    justify-content:center;
+    align-items:center;
+    display:flex;
+}
+
+.logo-page-1 img{
+    width:400px;
+    border:5px solid gray;
+    border-radius:20px;
+    box-shadow:0 50px 80px rgb(167, 165, 165);
+}
+
+.text-1{
+    justify-content:center;
+    text-align:center;
+    display:grid;
+}
+
+.text-1-h{
+    font-family: "Noto Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-variation-settings:
+    "wdth" 100;
+    width:200px;
+    background-color:rgb(4, 26, 192);
+    color:white;
+    border:3px solid rgb(194, 191, 191);
+    transition:0.75s;
+    border-radius:5px;
+    justify-content:center;
+    align-items:center;
+    display:flex;
+    text-align:center;
+    margin-top:50px;
+    margin-left:47px;
+}
+
+.text-1-h1{
+    font-family: "Noto Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-variation-settings:
+    "wdth" 100;
+    background-color:blue;
+    background-color:rgb(4, 26, 192);
+    color:white;
+    border:3px solid rgb(194, 191, 191);
+    transition:0.75s;
+    border-radius:5px;
+    justify-content:center;
+    align-items:center;
+    display:flex;
+    text-align:center;
+}
+
+.text-1-h2{
+    font-family: "Noto Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-variation-settings:
+    "wdth" 100;
+    background-color:blue;
+    background-color:rgb(4, 26, 192);
+    color:white;
+    border:3px solid rgb(194, 191, 191);
+    transition:0.75s;
+    border-radius:5px;
+    justify-content:center;
+    align-items:center;
+    display:flex;
+    text-align:center;
+    width:300px
+
+}    
+
+.Buy{
+    justify-content:center;
+    align-items:center;
+    display:flex;
+}
+
+.audio{
+    justify-content:center;
+    display:flex;
+    align-items:center;
+    size:2rem;
+}
+

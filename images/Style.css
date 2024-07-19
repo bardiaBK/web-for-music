@@ -1,0 +1,65 @@
+.wrapper{
+    height:190px;
+    background-color:rgb(39, 36, 36);
+    color:cornflowerblue;
+    display:flex;
+    justify-content:space-around;
+    align-items:center;
+    padding:40px 80px;
+    border-radius: 20px ;
+}
+body{
+    /* margin:0px; */
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+/* .telephone{
+    display:flex;
+    align-items:center;
+}
+
+.icon{
+    margin-right:15px;
+    font-size:20px;
+} */
+
+/* .telephone > .wrapper3{
+
+} */
+
+.wrapper3{
+    font-size:20px;
+}
+
+.wrapper4{
+    font-size:20px;
+}
+
+.links-wrapper > .link a{
+    color:aliceblue;
+}
+
+.banner-image img{
+    width:150px; 
+    height:100%;
+    margin-left:60px;
+}
+
+.wrapper > .center-colum{
+    display:grid;
+    grid-template-columns:1fr;
+    width:500px;
+}
+
+.wrapper > .center-colum > .banner-image{
+    display:flex;
+    justify-content:center;
+}
+
+.links-wrapper{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+}
