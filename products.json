@@ -1,0 +1,62 @@
+[
+    {
+        "id": 1,
+        "name": "Chill",
+        "price": "20$",
+        "image": "Chill.jpg",
+        "download": "Download",
+        "href": "Chill.mp3",
+        "DOname": "Chill.mp3",
+        "price1" : "25$"
+    },
+    {
+        "id": 2,
+        "name": "HipHop",
+        "price": "25$",
+        "image": "HipHop.png",
+        "download": "Download",
+        "href": "HipHop.Wav",
+        "DOname": "HipHop.Wav",
+        "price1" : "30$"
+    },
+    {
+        "id": 3,
+        "name": "Affro Beat",
+        "price": "15$",
+        "image": "Affro-beat.jpg",
+        "download": "Download",
+        "href": "Affro-beat.mp3",
+        "DOname": "Affro-beat.mp3",
+        "price1" : "20$"
+    },
+    {
+        "id": 4,
+        "name": "Old-School",
+        "price": "35$",
+        "image": "old- school.png",
+        "download": "Download",
+        "href": "old-school.mp3",
+        "DOname": "old-school.mp3",
+        "price1" : "40$"
+    },
+    {
+        "id": 5,
+        "name": "POP",
+        "price": "40$",
+        "image": "POP.png",
+        "download": "Download",
+        "href": "POP.mp3",
+        "DOname": "POP.mp3",
+        "price1" : "45$"
+    },
+    {
+        "id": 6,
+        "name": "Trap",
+        "price": "25$",
+        "image": "Trap.jpg",
+        "download": "Download",
+        "href": "Trap.mp3",
+        "DOname": "Trap.mp3",
+        "price1" : "40$"
+    }
+]

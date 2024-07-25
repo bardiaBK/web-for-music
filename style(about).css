@@ -180,6 +180,7 @@
     font-style: normal;
     border-radius:5px;
     border:none;
+    outline:none;
     border:3px solid black;
     width:100%;
     /* display:block; */
@@ -220,6 +221,22 @@
     background-color:orange;
     margin-bottom:60px;
 }
+
+.messageDiv{
+    background-color:rgb(245, 0, 102);
+    color:white;
+    padding:10px 20px;
+    margin:10px;
+    border-radius:5px;
+    font-size:1rem;
+    opacity:0;
+    animation:fadeout 7s forwards;
+    font-family: "Roboto Mono", monospace;
+    font-optical-sizing: auto;
+    font-weight:weight;
+    font-style:normal;
+}
+
 
 /* for phone */
 
